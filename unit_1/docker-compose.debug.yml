@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  unit1:
-    image: unit1
-    build:
-      context: .
-      dockerfile: ./Dockerfile
