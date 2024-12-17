@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Определяем путь, если он не закомментирован, иначе используем корневой каталог
 # path = '/'
-path = '/home/wildhunter/PycharmProjects'
+path = '/'
 
 def count_files(directory):
     return sum(len(files) for _, _, files in os.walk(directory))
